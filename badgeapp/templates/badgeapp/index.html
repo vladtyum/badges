@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html> <head>
+<title>Rango</title> </head>
+<body> <div>
+
+Latest ahievements
+{% for i in achievements %}
+<li>{{ i.student.name }} , {{i.badge.name }}</li> 
+{% endfor %}
+
+</div> </body>
+</html>

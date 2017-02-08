@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bagdes</title>
+</head>
+
+<body> <div>
+
+
+{% for school in schools %}
+	<li>School {{ school.name}}</li>
+{% endfor %}
+<hr>
+
+{% for i in achievements %}
+<li> Badge {{i.badge.name }}</li> 
+{% endfor %}
+
+</div>
+</body>
+</html>
